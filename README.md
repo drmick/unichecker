@@ -20,3 +20,7 @@ Run with fetching actual pools from the network
 `cargo run --release`
 
 Output will be stored in [output](output) folder.
+
+
+#### Test
+`cargo test`
