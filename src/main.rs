@@ -25,7 +25,7 @@ use std::path::{Path, PathBuf};
 use crate::{
     config::AppConfig,
     contracts::{erc20::Erc20Contract, uniswap_pair::UniswapPairContract},
-    services::storage::{CacheService, InMemoryCacheServiceImpl, SymbolKey},
+    services::cache::{CacheService, InMemoryCacheServiceImpl, SymbolKey},
     types::{BlockNum, DexPoolData},
 };
 use anyhow::Context;
